@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pong (Practice For WebGL)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<script type="text/javascript" src = "initShaders2.js"></script>
+<script type="text/javascript" src = "MV.js"></script>
+<script type="text/javascript" src = "gameLogic.js"></script>
+<body>
+    <div id ="scoreBoard">
+        <h1 id = "player1Score"></h1>
+        <h1 id = "player2Score"></h1>
+    </div>
+    <canvas id = "canvas" width="512" height = "512">
+        Oops ... your browser doesn't support HTML5 canvas :(
+    </canvas>
+    <div id = "instruction">W/S For Left<br/>Up/Down For Right<br/>
+    C For Switching Colors, T For Toggling Texture Mapping</div>
+    <button id = "resetButton" onclick="reset()">Start Game</button>
+</body>
+</html>
